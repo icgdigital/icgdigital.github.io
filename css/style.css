@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  font-family: "FRABK",Helvetica,Arial,sans-serif ;
+}
+@font-face {
+  font-family: 'FRABK';
+  src: url('fonts/FRABK.eot');
+  src: url('fonts/FRABK.eot') format('embedded-opentype'),
+       url('fonts/FRABK.woff2') format('woff2'),
+       url('fonts/FRABK.woff') format('woff'),
+       url('fonts/FRABK.ttf') format('truetype'),
+       url('fonts/FRABK.svg#FRABK') format('svg');
+}
+@font-face {
+  font-family: 'PT Serif';
+  src: url('PTSerif-Regular.woff2') format('woff2'),
+      url('PTSerif-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 20px;
+  height: 100px;
+}
+header>div{
+  width: 60%;
+  margin: 0 auto;
+  z-index: 9999999;
+}
+.tinted-image {
+    width: 100vw;
+    background: 
+      /* top, transparent red */ 
+      linear-gradient(
+        rgba(0, 0, 0, 0.75), 
+        rgba(0, 0, 0, 0.75)
+      ),
+      /* bottom, image */
+      url(../img/cover-image.jpg) no-repeat;
+      background-size: cover;
+      width: 100vw;
+  }
+  .event-wrapper{
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    padding-bottom: 60px;
+  }
+  .event-header{
+    padding-top: 250px;
+  }
+  .event-header h1{
+    font-size: 3.5em;
+    margin: 10px 0 25px 0;
+    font-family: "FRABK",Helvetica,Arial,sans-serif ;
+  }
+  .event-header p{
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+  }
+  .event-description{
+    display: flex;
+    justify-content: space-between;
+  }
+  .event-description p{
+    font-family: "PT Serif",Georgia,serif;
+    font-size: 1.125rem;
+    line-height: 1.35;
+    overflow-wrap: break-word;
+    font-style: italic;
+  }
+  .event-blurb{
+    display: block;
+    width: 50%;
+  }
+  .button-rsvp{
+    display: inline-block;
+    padding: 1.5rem 4rem;
+    border-radius: 0.5rem;
+    font-size: 1.75rem;
+    line-height: 1;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    border: 0;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .date-blurb{
+    margin-top: 20px;
+  }
+  .date-blurb p{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: normal;
+  }
+  .date-blurb>div{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .event-detail{
+    margin-left: 5px;
+  }
+  .signup-form{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  .hubspot-link__container.sproket {
+    color: #9fa0a2;
+    display: none;
+  }
+  .label{
+    font-family: "FRABK",Helvetica,Arial,sans-serif ;
+  }
